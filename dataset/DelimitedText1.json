@@ -10,6 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
+				"fileName": "dept.csv",
 				"folderPath": "input",
 				"container": "container3110"
 			},
@@ -18,35 +19,6 @@
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
 		},
-		"schema": [
-			{
-				"name": "sno",
-				"type": "String"
-			},
-			{
-				"name": "name",
-				"type": "String"
-			},
-			{
-				"name": "empid",
-				"type": "String"
-			},
-			{
-				"name": "dept",
-				"type": "String"
-			},
-			{
-				"name": "salary",
-				"type": "String"
-			},
-			{
-				"name": "gender",
-				"type": "String"
-			},
-			{
-				"name": "deptid",
-				"type": "String"
-			}
-		]
+		"schema": []
 	}
 }

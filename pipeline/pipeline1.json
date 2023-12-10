@@ -19,7 +19,7 @@
 						"type": "DelimitedTextSource",
 						"storeSettings": {
 							"type": "AzureBlobStorageReadSettings",
-							"fileListPath": "container3110/input",
+							"recursive": true,
 							"enablePartitionDiscovery": false
 						},
 						"formatSettings": {
